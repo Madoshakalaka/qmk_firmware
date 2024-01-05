@@ -1,6 +1,6 @@
 {
     "features": {
-        "rgblight": true
+        "rgblight": false
     },
     "split": {
         "soft_serial_pin": "D2"

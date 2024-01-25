@@ -21,11 +21,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_ESC, XXXXXXX ,  KC_W,    KC_E,  XXXXXXX,XXXXXXX,                      XXXXXXX, XXXXXXX,    KC_I,    KC_O, XXXXXXX,  XXXXXXX,
+      XXXXXXX, XXXXXXX ,  KC_W,    KC_E,  XXXXXXX,XXXXXXX,                      XXXXXXX, XXXXXXX,    KC_I,    KC_O, XXXXXXX,  XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_BKSL,    KC_A,    KC_S,    KC_D,    KC_F, XXXXXXX,                      XXXXXXX,    KC_J,    KC_K,    KC_L, KC_N   , KC_SCLN,
+      KC_BSLS,    KC_A,    KC_S,    KC_D,    KC_F, XXXXXXX,                      XXXXXXX,    KC_J,    KC_K,    KC_L, KC_N   , KC_SCLN,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_QUOT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_F2,
+      KC_QUOT,    KC_Z,    KC_X,    KC_C,    KC_V, XXXXXXX,                      XXXXXXX,     KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_F2,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI,   KC_ENT,  MO(1),     KC_RCTL,   KC_SPC, KC_RALT
                                       //`--------------------------'  `--------------------------'
@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [1] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_DEL,    KC_1,  C(KC_BSPC),KC_END  ,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_F7,    KC_F11,  KC_9, KC_BSPC,
+       XXXXXXX,  KC_1,  C(KC_BSPC),KC_END  ,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_F7,    KC_F11,  KC_9, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_PGUP, KC_HOME , KC_APP  , KC_BSPC, KC_TAB, XXXXXXX,                      XXXXXXX, KC_DOWN,  KC_UP,KC_RIGHT,  KC_ESC, KC_WH_U,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
